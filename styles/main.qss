@@ -1,0 +1,427 @@
+/* {
+    font-family: "JetBrains Mono";
+} */
+QFrame#frame_content {
+    border: 1px solid #505050;
+}
+QFrame#frame_content:hover {
+    border-color: #9cff2b;
+}
+QGraphicsView#graphics_content {
+    border: 1px solid #505050;
+    background-color: transparent;
+}
+QGraphicsView#graphics_content:hover {
+    border-color: #9cff2b;
+}
+QLabel#title {
+    font-size: 14px;
+    color: #ffffff;
+}
+QColorDialog {
+    background-color: #1d1d1d;
+}
+QLabel {
+    color: #ffffff;
+}
+QLineEdit,
+QSpinBox,
+QDoubleSpinBox,
+QPushButton,
+QTimeEdit {
+    background-color: #292929;
+    color: white;
+    padding: 5px;
+    border: None;
+    font-size: 14px;
+    font-weight: 400;
+    height: 25px;
+}
+
+QPushButton:selected,
+QPushButton:focus
+{
+    border:None;
+}
+QMenuBar {
+    background-color: #333333;
+    color: #ffffff;
+}
+QMenuBar::item:selected,
+QMenuBar::item:hover {
+    background-color: #ff535353;
+}
+QMenu {
+    background-color: #333333;
+    color: #ffffff;
+}
+QMenu::item:selected,
+QMenu::item:hover {
+    background-color: #ff535353;
+}
+QLabel#label_form {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+}
+QLineEdit#input_str,
+QSpinBox#input_int,
+QDoubleSpinBox#input_float,
+QPushButton#input_file,
+QTimeEdit#input_time {
+    background-color: #292929;
+    color: white;
+    padding: 5px;
+    border: None;
+    font-size: 14px;
+    font-weight: 400;
+    height: 25px;
+}
+
+QLineEdit#input_str:focus,
+QSpinBox#input_int:focus,
+QDoubleSpinBox#input_float:focus,
+QPushButton#input_file:focus,
+QTimeEdit#input_time:focus {
+    border: 1px solid #9cff2b;
+}
+
+QLabel#input_file {
+    color: #525252;
+    font-size: 16px;
+    font-weight: 400;
+    height: 25px;
+    background-color: None;
+}
+QLabel#input_file:hover {
+    color: #9cff2b;
+}
+QLabel#title_list {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+}
+QLabel#file_list {
+    color: #c7c7c7;
+    font-size: 14px;
+    font-weight: 400;
+}
+QLabel#file_list[state="hover"] {
+    color: #505050;
+}
+QFrame#custom_list:hover {
+    background-color: #9cff2b;
+}
+QLabel#icon_upload {
+    color: white;
+    font-size: 24px;
+    font-family: "Material Symbols Outlined";
+}
+QToolTip {
+    background-color: #292929;
+    border: 1px solid #505050;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+}
+QLabel#icon_upload:hover {
+    color: #9cff2b;
+}
+QLineEdit#search_file {
+    color: white;
+    background-color: #292929;
+    padding: 5px;
+    border: 1px solid #505050;
+    /* height: 25px; */
+    font-size: 16px;
+    font-weight: 400;
+}
+QLineEdit#search_file:focus {
+    border-color: #9cff2b;
+
+}
+QFrame#cont {
+    border: 1px solid #505050;
+}
+QFrame#cont:hover {
+    border-color: #9cff2b;
+}
+QLabel#content_icon {
+    color: white;
+    font-size: 24px;
+    font-family: "Material Symbols Outlined";
+}
+QLabel#content_icon[state="hover"] {
+    color: #505050;
+}
+QLabel#content_text {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+QLabel#content_text[state="hover"] {
+    color: #505050;
+}
+QScrollBar {
+    border:none;
+    height: 10px;
+    padding: 3;
+    margin: 0;
+    color: white;
+    background-color: none;
+}
+QScrollBar::handle {
+    margin: 0;
+    background-color: #414141;
+}
+QScrollBar::add-line,QScrollBar::sub-line {
+    background-color: none;
+}
+QScrollBar::up-arrow, QScrollBar::down-arrow
+{
+    background: none;
+}
+QScrollBar::add-page, QScrollBar::sub-page
+{
+    background: none;
+}
+QLabel#icon_preview {
+    color: white;
+    font-size: 24px;
+    font-family: "Material Symbols Outlined";
+}
+QLabel#label_preview{
+    color: white;
+    font-size: 20px;
+}
+QGraphicsView#grap_pre{
+    background: #222222;
+    border: none;
+}
+QLabel#titlefx{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+QDoubleSpinBox#iptfx,
+QSpinBox#iptfx,
+QPushButton#iptfx,
+QComboBox#iptfx,
+QLineEdit#iptfx{
+    color: white;
+    font-size: 14px;
+    background-color: #292929;
+    border: none;
+    padding: 5px;
+    height: 20px;
+}
+
+QComboBox#iptfx 
+QAbstractItemView {
+    border: none;
+    background-color: #292929;
+    outline: none;
+}
+
+QComboBox#iptfx 
+QAbstractItemView::item {
+    font-size: 14px;
+    padding: 5px;
+    color: white;
+}
+
+QComboBox#iptfx 
+QAbstractItemView::item:hover,
+QAbstractItemView::item:selected{
+    padding: 5px;
+    background-color: #9cff2b;
+    color: black;
+}
+
+QLabel#lblfx{
+    color: white;
+    font-size: 14px;
+}
+QFrame#bgtlfx{
+    background-color: #292929;
+}
+
+QLabel#lyslbl{
+    color: #C7C7C7;
+    font-size: 16px;
+}
+
+QLabel#lysicon{
+    color: #C7C7C7;
+    font-size: 18px;
+    font-family: "Material Symbols Outlined";
+}
+
+QLabel#txtlys {
+    color: white;
+    font-size: 14px
+}
+
+QFrame#contlys{
+    background-color:  #262626;
+}
+
+QFrame#PopUpFrame,
+QScrollArea#PopUpFrame
+{
+    background-color: #262626;
+    border: 1px solid #505050;
+}
+
+QFrame#PopUpFrame:hover,
+QScrollArea#PopUpFrame:hover
+{
+    border-color: #9cff2b;
+}
+
+QLabel#link{
+    color: #454FFF;
+    font-size: 13px;
+    font-style: underline;
+    font-weight: 500;
+}
+
+QLabel#lcnthird{
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
+QLabel#tplttl{
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+}
+QLabel#eulattl{
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+QLabel#expltpl{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+QLineEdit#eulaipt{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: transparent;
+    border: none;
+}
+
+QLineEdit#iptsc{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #292929;
+    border: 1px solid #505050;
+}
+
+QLineEdit#iptsc:focus{
+    border-color: #9cff2b;
+}
+
+QLabel#ttlkyc{
+    font-size: 14px;
+    font-weight: 600;
+    color: #E6E6E6;
+    border: 1px solid #505050;
+    background-color: #292929;
+}
+
+QFrame#fkyb{
+    background-color: #292929;
+}
+
+QScrollArea#wkyb{
+    border: 1px solid #505050;
+}
+
+
+QLabel#ttlkyc:hover,
+QScrollArea#wkyb:hover{
+    border-color: #9cff2b;
+}
+
+QLabel#lftkyb,
+QLabel#rgtkyb{
+    color: #DBDBDB;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #363636;
+}
+
+QLabel#lftkyb:hover,
+QLabel#rgtkyb:hover{
+    color: #0F0F0F;
+    background-color: #9cff2b;
+    
+}
+
+QPushButton#buttcg{
+    color: #DBDBDB;
+    font-size: 14px;
+    height: 15px;
+    padding: 5px;
+    font-weight: 500;
+    background-color: #363636;
+    border: 1px solid #505050;
+
+}
+
+QPushButton#buttcg:hover{
+    background-color: #9cff2b;
+    border-color: #9cff2b;
+    color: black;
+}
+
+QLabel#tmproc{
+    color:white;
+    font-size: 42px;
+    font-weight: 800;
+}
+
+QSpinBox#iptrdr,
+QComboBox#iptrdr
+{
+    color: #DBDBDB;
+    font-size: 14px;
+    height: 15px;
+    padding: 5px;
+    background-color: #363636;
+    border: 1px solid #505050;
+}
+
+QComboBox#iptrdr 
+QAbstractItemView {
+    border: none;
+    background-color: #363636;
+    outline: none;
+    color: white;
+}
+
+QComboBox#iptrdr 
+QAbstractItemView::item {
+    font-size: 14px;
+    padding: 5px;
+}
+
+QComboBox#iptrdr 
+QAbstractItemView::item:hover,
+QAbstractItemView::item:selected{
+    background-color: #9cff2b;
+    border-color: #9cff2b;
+    color: black;
+}
+
+QLineEdit#iptde{
+    color:white;
+    background: transparent;
+    border: none;
+}
