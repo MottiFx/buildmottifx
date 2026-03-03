@@ -2,8 +2,7 @@
 Its repo just to tell you step how to run this project
 
 
-## Our Vision
-This project is built to empower creators to produce wholesome and positive media. We believe technology should be a force for good, providing a legal and ethical foundation for everyone to build their career with integrity.
+
 
 
 ## Getting Started
