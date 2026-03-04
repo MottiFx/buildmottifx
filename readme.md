@@ -1,9 +1,18 @@
 # MottiFx Video Editor
 Its repo just to tell you step how to run this project
 
-
-
-
+## We Social
+<div align="center">
+    <a href="https://www.instagram.com/mottifx_" target="_blank">
+        <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="26" alt="instagram logo"  />
+    </a>
+    <a href="https://mottifx.vercel.app/" target="_blank">
+        <img src="https://img.shields.io/static/v1?&label=&logo=gnome%20terminal&style=for-the-badge&message=MottiFx&logoColor=white&color=emerald" height="26" alt="website logo"  />
+    </a>
+    <a href="https://discord.gg/UVDycdgRHM" target="_blank">
+        <img src="https://img.shields.io/static/v1?message=Discord&style=for-the-badge&logo=discord&&logoColor=white&color=blue&label=" height="26" alt="discord logo"  />
+    </a>
+</div>
 
 ## Getting Started
 To set up the project environment, please follow these steps:
